@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+
+
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laudantium blanditiis nostrum vel. Necessitatibus perspiciatis in, pariatur ab animi asperiores ea nesciunt? Itaque dignissimos autem, tempore quae dicta expedita corrupti.lore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, a voluptatum doloribus officia eveniet recusandae natus optio laborum omnis, sint unde architecto corporis ea. Corrupti laudantium dolor consectetur iure cum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam necessitatibus pariatur ullam voluptatem, iure iste. Commodi minus cumque veritatis et ex laborum, facere totam magni perspiciatis tenetur incidunt eius nobis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae cupiditate exercitationem hic deleniti, ut officia totam magnam debitis. Tempore nihil laborum ut quo libero sunt nisi! Accusantium voluptas quo doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, assumenda! Numquam, ad. Magni maiores dignissimos corporis, dolore expedita nesciunt ipsum repudiandae reprehenderit hic repellat qui vel molestiae repellendus harum dolorem!</p>
+        <picture>
+            <!--Quando chegar em 600px a imagem vai quebrar e o html vai subir a imagem de pequena-->
+            <source media="(max-width: 600px )" srcset="imagens/irina-blok-pq.jpg"> 
+            <img src="imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+    </main>
+    
+</body>
+</html>

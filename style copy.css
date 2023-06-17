@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*
+    #c5ebd6
+    #83e1ad
+    #3ddc84
+    #2fa866
+    #1a5c37
+    #063d1e
+
+*/
+
+@font-face{
+    font-family: "android";
+    src: url('fontes/idroid.otf') format('truetype');
+}
+@font-face{
+    font-family: "teste";
+    src: url('fontes/RobotoCondensed-Regular.ttf') format('truetype');    
+}
+iframe{
+    border:15px;
+    border-style: solid;
+    border-color: #235C38;
+    text-align: center;
+}
+
+nav > a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    
+}
+nav{
+    text-align: left;
+    margin-left: 10px;
+   
+
+}
+
+a:hover{
+    font-weight: bolder;
+
+
+}
+
+
+
+body{
+    background: #c5ebd6;
+    margin: 0px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0px;
+
+
+}
+
+header{
+    background-image: linear-gradient(to top, #235C38, #389259, #41aa68);
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'teste';
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.485);
+}
+
+main{
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-right: 130px;
+    margin-bottom: 10px;
+    margin-left: 130px;
+    padding: 30px;
+}
+
+.titulo{
+    font-family: 'android';
+    margin-top: 0px;
+    color: #235C38;
+
+}
+.subtitulo{
+    font-family: 'android';
+    color: #235C38;
+    background-image: linear-gradient(to right,#41aa6897, #54df8743);
+
+}
+.paragrafo{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    margin: 0px
+}
+
+span{
+    color: #235C38;
+    font-weight: bolder;
+
+}
+
+div#principal{
+    background-color: #41aa68;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:  0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+div#corpo{
+    background-color: #90f6bcc1;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    border-radius: 0px 0px 10px 10px;
+   
+}
+footer{
+    background-color: #235C38;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+
+}
